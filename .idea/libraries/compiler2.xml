@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="compiler2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/node_modules/textlint-rule-ja-hiragana-hojodoushi/node_modules/zlibjs/vendor/google-closure-compiler/compiler.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

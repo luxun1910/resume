@@ -1,10 +1,6 @@
 ---
 ---
 
-/* フォント変数を上書き */
-$body-font: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif !important;
-$header-font: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif !important;
-
 /* テーマをインポート */
 @import "{{ site.theme }}";
 

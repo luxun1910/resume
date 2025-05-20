@@ -1,6 +1,10 @@
 # 職務経歴書
 
+目次
+
 - [職務経歴書](#職務経歴書)
+  - [概要](#概要)
+  - [求めている環境](#求めている環境)
   - [資格](#資格)
   - [技術](#技術)
   - [職務経歴詳細](#職務経歴詳細)
@@ -12,11 +16,27 @@
       - [プロジェクト5: 定期脆弱性診断](#プロジェクト5-定期脆弱性診断)
       - [プロジェクト6: 外部連携APIリファクタリング](#プロジェクト6-外部連携apiリファクタリング)
       - [プロジェクト7: Adobe Analytics計測データソース変更](#プロジェクト7-adobe-analytics計測データソース変更)
-    - [信睿信息有限公司](#信睿信息有限公司)
+    - [信睿信息技术有限公司](#信睿信息技术有限公司)
   - [業務以外での活動](#業務以外での活動)
     - [テックブログ](#テックブログ)
     - [個人開発](#個人開発)
     - [OSS貢献](#oss貢献)
+
+## 概要
+
+- 株式会社カカクコムにWEBエンジニアとして新卒入社し、価格.comの自動車カテゴリページの改修・機能追加や、開発者向けツールの開発を担当した
+- プログラミング業務未経験だったが、独学・OJTで設計・実装・テスト・リリースまで実施できるようになった
+- 仕様が記載されていない個所や、技術的により良くできる個所については自分から提案を行うなど、密なコミュニケーションのもとに仕事を進めてきた
+- C#/ASP.NET MVCでの開発を基本としつつ、必要に応じてJavaScript/jQueryも取り扱った
+- MVCパターンを基本としたコーディング規約に従って開発をしてきた（例: DI、サービスクラスやファサードクラスの導入）
+- 2年目以降は、案件に応じて外部企業・他チームとのやり取りや、自チームの中途社員への指示出し・サポートを行った
+- 上海で1年語学留学した後、市内のシステム開発会社の下で無給インターンをしている
+
+## 求めている環境
+
+- 社内で英語や中国語を活用できるグローバルな環境
+- エンジニアもビジネスの視点を持ち、施策を行う理由や数値目標を意識することが要求される環境
+- 心理的安全性が担保され、活発に意見交換が行われる環境
 
 ## 資格
 
@@ -41,16 +61,16 @@
     - Microsoft SQL Server
     - MySQL
 - 業務外での経験あり
-  - 言語/開発環境
+  - 言語/フレームワーク
     - Flutter / Dart
-    - C++
     - Unity
     - Hugo
     - WordPress
+    - C++
 
 ## 職務経歴詳細
 
-### 株式会社カカクコム
+### [株式会社カカクコム](https://corporate.kakaku.com/)
 
 - 勤務期間：2021年4月1日～2024年1月25日
 - 雇用形態
@@ -83,6 +103,8 @@
   - 改修によって発生する影響箇所の調査と、その結果を表形式で分かりやすくまとめる手法を身に着けた
   - 仕様書で直接指示されていない個所について、ユーザーの利益を想像して、より良いと思われる選択肢を自ら提案することができた
     - 例: 他ページの諸元表で表示項目が異なっている部分の統一を提案し、受け入れられた
+  - より良い実装方法を自ら提案して実施できた
+    - 例: グレードの並び替えロジックについて、並び替えに必要なプロパティをインターフェースにし、インターフェースに対する並び替えメソッドを作成することで、複数の個所での並び替えに効率よく対応した
 
 #### プロジェクト3: 新車買取タブ査定実績情報拡充
 
@@ -133,7 +155,7 @@
   - Linuxのコマンド使用経験・定期実行実装経験を得た
   - チーム内にノウハウがない状態でも、他チームへのヒアリングや資料検索を通して方針を決めることができた
 
-### 信睿信息有限公司
+### [信睿信息技术有限公司](http://www.shxrtech.com/)
 
 - 勤務期間：2025年3月～現在
 - 雇用形態
@@ -142,6 +164,7 @@
   - 業務システム等の受託開発
 - 自身の主な業務内容
   - 简单表と呼ばれるローコードフレームワークを使用したフロントエンド・バックエンド・データベースの開発
+  - Cursorを使用したAIでの開発方法の模索
 - 使用した技術
   - Java / Spring Boot
   - Vue.js
@@ -164,8 +187,12 @@
 | Fencing Scorer with Video | [Google Play](https://play.google.com/store/apps/details?id=com.unanimousworks.fencing_scoring_machine) | <https://github.com/luxun1910/fencing_scoring_machine> |
 |    Bouncing Ball Game     |    [Google Play](https://play.google.com/store/apps/details?id=com.UnanimousWorks.BouncingBallGame)     | <https://github.com/luxun1910/BouncingBallGame>        |
 | フェンシング練習場マップ  |  [Google Play](https://play.google.com/store/apps/details?id=com.unanimousworks.fencing_place_search)   | <https://github.com/luxun1910/fencing_place_search>    |
-|    Nonsense Generator     |   [Google Play](https://play.google.com/store/apps/details?id=com.unanimousworks.nonsense_generator)    | Not yet...                                             |
+|    Nonsense Generator     |   [Google Play](https://play.google.com/store/apps/details?id=com.unanimousworks.nonsense_generator)    | <https://github.com/luxun1910/nonsense_generator>      |
 
 ### OSS貢献
 
-- MyBatis-Plusドキュメント翻訳（中国語→日本語、英語）
+- [MyBatis-Plus](https://github.com/baomidou/mybatis-plus)[ドキュメント](https://baomidou.com/)翻訳
+  - 中国語→日本語、英語
+    - ただし、英語は途中
+  - [イシュー](https://github.com/baomidou/mybatis-plus-doc/issues/403)
+  - [プルリクエスト（中→日）](https://github.com/baomidou/mybatis-plus-doc/pull/406)
